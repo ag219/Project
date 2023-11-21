@@ -21,8 +21,8 @@ Loading DataFrames:
    - Uses pandas to load the `athlete_events` and `regions` datasets from CSV files.
 
    python:
-   import pandas as pd
-   athlete_events = pd.read_csv('path/to/athlete_events.csv')
+   import pandas as pd,
+   athlete_events = pd.read_csv('path/to/athlete_events.csv'),
    regions = pd.read_csv('path/to/noc_regions.csv')
 
 Exploring DataFrames:
